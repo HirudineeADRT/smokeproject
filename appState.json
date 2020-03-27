@@ -1,0 +1,83 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "fa32efde-572a-4d62-9256-3197c1d1e6ee": {
+        "id": "fa32efde-572a-4d62-9256-3197c1d1e6ee",
+        "parent": null,
+        "name": "smokeproject.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "smokeproject.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSKunverified",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "fa32efde-572a-4d62-9256-3197c1d1e6ee"
+    ],
+    "currentFileId": "fa32efde-572a-4d62-9256-3197c1d1e6ee",
+    "resources": {
+      "alexaSKunverified": {
+        "name": "alexaSKunverified",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": false,
+          "skillID": "",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "smokeproject",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585291508668
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "smokeproject",
+      "url": "https://github.com/HirudineeADRT/smokeproject"
+    }
+  }
+}
